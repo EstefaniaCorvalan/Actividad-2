@@ -1,0 +1,52 @@
+body {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 5rem;
+
+}
+
+.container-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+    font-size: 1rem;
+    margin: 0rem;
+    width: 100%;
+    background-color: plum;
+    box-sizing: border-box;
+}
+
+#Receta1,#Receta2, #Receta3, #Receta3, #Receta4{
+    border: 0.2rem solid black;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: lightblue;
+    scroll-margin-top: 5rem;
+}
+
+.receta-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#IndiceDeRecetas {
+    scroll-margin-top: 4rem;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;  
+    color: black;           
+}
