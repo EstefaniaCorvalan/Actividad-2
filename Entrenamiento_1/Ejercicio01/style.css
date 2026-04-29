@@ -9,7 +9,7 @@ body {
 }
 main {
     display: flex;
-    flex-direction: column;  /* ← esto apila las secciones una abajo de la otra */
+    flex-direction: column;
     gap: 1rem;
     padding: 1rem;
 }
